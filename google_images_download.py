@@ -4,19 +4,19 @@
 # location
 
 from bing_image_downloader import downloader
-from google_images_download import google_images_download  # importing the library
+# from google_images_download import google_images_download  # importing the library
 
 
-def google_images():
-    response = google_images_download.googleimagesdownload()  # class instantiation
-    arguments = {"keywords": "Polar bears,baloons,Beaches",
-                 "limit": 20, "print_urls": True}  # creating list of arguments
-    # passing the arguments to the function
-    paths = response.download(arguments)
-    return (paths)  # printing absolute paths of the downloaded images
+# def google_images():
+#     response = google_images_download.googleimagesdownload()  # class instantiation
+#     arguments = {"keywords": "Polar bears,baloons,Beaches",
+#                  "limit": 20, "print_urls": True}  # creating list of arguments
+#     # passing the arguments to the function
+#     paths = response.download(arguments)
+#     return (paths)  # printing absolute paths of the downloaded images
 
 
-downlad = google_images()
+# downlad = google_images()
 
 
 '''query_string : String to be searched.
@@ -32,8 +32,8 @@ You can also test the programm by runnning test.py keyword'''
 
 
 def google_images():
-    query_searsh = "dogs,cars,baby"
-    downloader.download(query_searsh, limit=100,  output_dir='dataset',
+    strings_searsh = "dress,laptop,kids"
+    downloader.download(strings_searsh, limit=30,  output_dir='F:\\Download\\photos',
                         adult_filter_off=True, force_replace=False, timeout=60, verbose=True)
 
 

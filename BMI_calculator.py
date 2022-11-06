@@ -1,15 +1,13 @@
 # BMI calculator : create a python function that takes the user height , weight and
 # print the user BMI and if the user underweight , overweight or healthy
-
-
 from pywebio.input import *
 from pywebio.output import *
 
 
 def bmi():
     '''This is just a very simple script if you ignore PyWebIO, but after using the input and output functions provided by PyWebIO, you can interact with the code in the browser:'''
-    height = input("Input your height(cm)：", type=FLOAT)
-    weight = input("Input your weight(kg)：", type=FLOAT)
+    height = input("برجاء ادخال الطول(cm) :", type=FLOAT)
+    weight = input("برجاء ادخال الوزن(kg) :", type=FLOAT)
 
     BMI = weight / (height / 100) ** 2
 

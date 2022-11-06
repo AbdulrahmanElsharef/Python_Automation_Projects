@@ -13,9 +13,9 @@ def send_mail():
     # start TLS for security
     sms.starttls()
     sender = 'nour70331@gmail.com' 
-    receivers = 'abdoelsharef1@gmail.com'
+    receiver = 'abdoelsharef1@gmail.com'
     msg = MIMEText(
-        f"white friday {receivers} you have sale 50% offer for iphone accseorice click here to take sale ".title())
+        f"white friday {receiver} you have sale 50% offer for iphone accseorice click here to take sale ".title())
     msg['Subject'] = 'white friday'.upper()
     msg['From'] = sender
     msg['To'] = 'customer'.upper()
@@ -24,10 +24,10 @@ def send_mail():
     sms.login(sender, token_mail)
     # message to be sent
     # sending the mail
-    sms.sendmail(sender, receivers, msg.as_string())
+    sms.sendmail(sender, receiver, msg.as_string())
     # terminating the session
     sms.quit()
-    print(f"send mail to {receivers} is done ...".title())
+    print(f"send mail to {receiver} is done ...".title())
 
 
 schedule.every(10).seconds.do(send_mail)
