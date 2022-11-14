@@ -1,5 +1,6 @@
 import datetime
 import calendar
+from datetime import time
 # import datetime module
 today = datetime.date.today()
 # use dat.today function

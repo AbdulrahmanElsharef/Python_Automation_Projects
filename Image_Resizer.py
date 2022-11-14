@@ -8,5 +8,5 @@ needed image size then resize the image to this size and save it in the same fol
     print(f"Original size : {image.size}") # 5464x3640
     sunset_resized = image.resize((400, 400))
     sunset_resized.save('sunset_400.jpeg')
-    print(f"Original size : {sunset_resized.size} & image_resize is finshed ....")
+    print(f"Original size : {sunset_resized.size} & image_resize is finished ....")
 image_resize()
