@@ -1,0 +1,23 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Please Enter Your Name :abdo
+enter your birth date please :10/8/1980
+Congratulations Abdo Your Age Is *42* Years & *3* Month And *6* Days    
+Congratulations Abdo Your Next Birthdate After *8* Months And *27* Days 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Please Enter Your Name :hamed
+enter your birth date please :16/1/200
+Congratulations Hamed Your Age Is *1822* Years & *10* Month And *0* Days
+Congratulations Hamed Your Next Birthdate After *2* Months And *1* Days 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Please Enter Your Name :jan
+enter your birth date please :17/5/1945
+Congratulations Jan Your Age Is *77* Years & *6* Month And *1* Days   
+Congratulations Jan Your Next Birthdate After *6* Months And *2* Days 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Please Enter Your Name :hassan
+enter your birth date please :17/8/2010
+Congratulations Hassan Your Age Is *12* Years & *3* Month And *1* Days
+Congratulations Hassan Your Next Birthdate After *9* Months And *4* Days
